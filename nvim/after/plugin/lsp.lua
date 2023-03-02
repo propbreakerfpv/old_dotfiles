@@ -6,7 +6,7 @@ lsp.preset("recommended")
 lsp.ensure_installed({ -- put any lsp servers you want here
   'tsserver', --       <---/
   'eslint',
-  'sumneko_lua',
+  'lua_ls',
   'rust_analyzer',
   'clangd',
 })
